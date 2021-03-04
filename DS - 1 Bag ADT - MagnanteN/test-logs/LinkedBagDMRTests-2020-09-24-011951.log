@@ -1,0 +1,201 @@
+Detailed log in: C:\Users\magnanten\Desktop\School\Data Structures\Labs\DS - 1 Bag ADT - MagnanteN\test-logs\LinkedBagDMRTests-2020-09-24-011951.log
+
+     Starting tests of class LinkedBag
+
+[ 1] Starting tests of difference() with LinkedBag
+
+[1, 1] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: []
+		anotherBag      : []
+		resultBag       : []
+	expect: []
+[1, 1] Test failed
+
+[1, 2] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: []
+		anotherBag      : null
+		resultBag       : []
+	expect: []
+	actual: NullPointerException: "Cannot invoke "edu.wit.dcsn.comp2000.bag.adt.BagInterface.toArray()" because "anotherBag" is null"
+[1, 2] Test failed
+
+[1, 3] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: []
+		anotherBag      : ["A"]
+		resultBag       : []
+	expect: []
+[1, 3] Test failed
+
+[1, 4] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: []
+		anotherBag      : ["A", "a", "B", "b"]
+		resultBag       : []
+	expect: []
+[1, 4] Test failed
+
+[1, 5] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: []
+		anotherBag      : [".", "?", "*"]
+		resultBag       : []
+	expect: []
+[1, 5] Test failed
+
+[1, 6] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A"]
+		anotherBag      : []
+		resultBag       : ["A"]
+	expect: ["A"]
+[1, 6] Test failed
+
+[1, 7] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [1, 2, 3]
+		anotherBag      : []
+		resultBag       : [1, 2, 3]
+	expect: [1, 2, 3]
+[1, 7] Test failed
+
+[1, 8] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "a", "B", "b"]
+		anotherBag      : []
+		resultBag       : ["A", "a", "B", "b"]
+	expect: ["A", "a", "B", "b"]
+[1, 8] Test failed
+
+[1, 9] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A"]
+		anotherBag      : ["A"]
+		resultBag       : []
+	expect: []
+[1, 9] Test failed
+
+[1, 10] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [1]
+		anotherBag      : [1]
+		resultBag       : []
+	expect: []
+[1, 10] Test failed
+
+[1, 11] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "A"]
+		anotherBag      : ["A"]
+		resultBag       : ["A"]
+	expect: ["A"]
+[1, 11] Test failed
+
+[1, 12] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "a"]
+		anotherBag      : ["A"]
+		resultBag       : ["a"]
+	expect: ["a"]
+[1, 12] Test failed
+
+[1, 13] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["a", "A"]
+		anotherBag      : ["A"]
+		resultBag       : ["a"]
+	expect: ["a"]
+[1, 13] Test failed
+
+[1, 14] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "A"]
+		anotherBag      : ["A", "A", "A"]
+		resultBag       : []
+	expect: []
+[1, 14] Test failed
+
+[1, 15] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "B", "C"]
+		anotherBag      : ["D", "E", "F"]
+		resultBag       : ["A", "B", "C"]
+	expect: ["A", "B", "C"]
+[1, 15] Test failed
+
+[1, 16] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "B", "C"]
+		anotherBag      : [".", "?", "*"]
+		resultBag       : ["A", "B", "C"]
+	expect: ["A", "B", "C"]
+[1, 16] Test failed
+
+[1, 17] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ..., 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000]
+		anotherBag      : [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, ..., 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999]
+		resultBag       : [1, 1000]
+	expect: [1, 1000]
+[1, 17] Test failed
+
+[1, 18] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [-500, -499, -498, -497, -496, -495, -494, -493, -492, -491, -490, -489, -488, -487, -486, -485, -484, -483, -482, -481, -480, -479, -478, -477, -476, ..., 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500]
+		anotherBag      : [-600, -599, -598, -597, -596, -595, -594, -593, -592, -591, -590, -589, -588, -587, -586, -585, -584, -583, -582, -581, -580, -579, -578, -577, -576, ..., 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600]
+		resultBag       : []
+	expect: []
+[1, 18] Test failed
+
+[1, 19] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+		anotherBag      : []
+		resultBag       : [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+	expect: [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+[1, 19] Test failed
+
+[1, 20] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+		anotherBag      : null
+		resultBag       : [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+	expect: [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, ..., 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456]
+	actual: NullPointerException: "Cannot invoke "edu.wit.dcsn.comp2000.bag.adt.BagInterface.toArray()" because "anotherBag" is null"
+[1, 20] Test failed
+
+[1, 21] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [true]
+		anotherBag      : [false]
+		resultBag       : [true]
+	expect: [true]
+[1, 21] Test failed
+
+[1, 22] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: [true, false, true]
+		anotherBag      : [true]
+		resultBag       : [false, true]
+	expect: [false, true]
+[1, 22] Test failed
+
+[1, 23] Testing: difference() with LinkedBag
+	configuration:
+		initial contents: ["A", "B", "C"]
+		anotherBag      : ['b']
+		resultBag       : ["A", "B", "C"]
+	expect: ["A", "B", "C"]
+[1, 23] Test failed
+
+[ 1] Successfully completed   0 of  23 tests (  0%) of difference() with LinkedBag
+
+----------
+
+     Summary Test Results
+
+[ 1] Successfully completed   0 of  23 tests (  0%) of difference() with LinkedBag
+
+     Successfully completed   0 of  23 tests (  0%) attempted for class LinkedBag
